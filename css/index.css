@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(../images/desktop.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  hsl(0, 100%, 74%) ;
+
+}
+.container h2
+{
+    margin: 220px 50px 40px 50px;
+    color: white;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 50px;
+
+}
+.container h6 
+{
+    margin: 20px 50px 0 50px;
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    color: hsl(245, 23%, 89%);
+
+}
+.container .btn
+{
+    margin: 100px 0px 20px 45px;
+   padding: 12px 30px ;
+   width: 450px;
+   border-radius: 10px;
+   background-color: hsl(248, 32%, 49%);
+   border-color: hsl(248, 40%, 49%);
+   font-size: 14px;
+   font-weight: 600;
+   box-shadow: 0px 5px 5px 0 #7c7474;
+
+
+}
+#active:hover {
+    background-color: hsl(154, 59%, 51%);
+    border-color:hsl(154, 59%, 51%) ;
+}
+ 
+.form-row
+{
+    margin:0 20px;
+    
+}
+.form-row input{
+    height: 45px;
+}
+.two{
+    width: 450px;
+    height: 390px;
+    margin:  auto;
+    padding-top: 25px;
+    background:white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 7px 5px 0 #7c7474;
+}
+.btn2
+{
+    font-size: 12px;
+   width: 410px; 
+   height: 45px; 
+   margin: 10px 5px 0px 5px;
+   padding: 8px 30px ;
+   border-radius: 8px;
+   background-color: hsl(154, 59%, 51%);
+   border-color: azure;
+}
+p
+{
+    margin: 15px;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+span
+{
+    color: hsl(0, 75%, 70%);
+}
+@media (max-width:1200px)
+{
+    .container .btn
+{
+    margin: 100px 0px 20px 5px;
+   padding: 12px 30px ;
+   width: 450px;
+}
+}
+
+@media (max-width:375px) {
+    body
+    {
+        background-image: url(../images/bg-intro-mobile.png);
+    }
+   
+    .container .btn
+{
+    margin: 30px 0px 20px 10px;
+   padding: 15px 0px ;
+   width: 330px;
+   font-size: 20px;
+   font-weight: 700;
+
+}
+*
+{
+    margin:10px 0;
+}
+.two{
+    width: 330px;
+    height: 450px;
+    margin:  auto;
+    padding-top: 25px;
+}
+.container h2
+{
+    margin: 20px 20px 40px 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.container h6 
+{
+    margin: 20px 20px 0 20px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 20px;
+    color: hsl(245, 23%, 89%);
+
+}
+p {
+font-size: 12px;
+}
+
+}
+
+
+
